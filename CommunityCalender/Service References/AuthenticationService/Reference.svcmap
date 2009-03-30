@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dfbb5598-3e83-4899-8ce1-93952db03e8e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WebAuth/Authentication/Services/Authentication.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Authentication.disco" MetadataType="Disco" ID="f8b5245e-2df9-4350-9129-df14b8ca40f9" SourceId="1" SourceUrl="http://pennywise-pc/WebAuth/Authentication/Services/Authentication.svc?disco" />
+    <MetadataFile FileName="Authentication.xsd" MetadataType="Schema" ID="ddbc54a8-288d-4f93-be62-31a644f7a837" SourceId="1" SourceUrl="http://pennywise-pc/WebAuth/Authentication/Services/Authentication.svc?xsd=xsd0" />
+    <MetadataFile FileName="AuthenticationService.wsdl" MetadataType="Wsdl" ID="6ec6173a-af37-46cf-873f-6a388548f88d" SourceId="1" SourceUrl="http://pennywise-pc/WebAuth/Authentication/Services/Authentication.svc?wsdl" />
+    <MetadataFile FileName="Authentication1.xsd" MetadataType="Schema" ID="d7ad291e-64f4-42cc-852a-7e9c4042c8da" SourceId="1" SourceUrl="http://pennywise-pc/WebAuth/Authentication/Services/Authentication.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

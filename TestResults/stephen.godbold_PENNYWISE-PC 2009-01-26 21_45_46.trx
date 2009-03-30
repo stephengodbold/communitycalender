@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d29d6a1-0808-4310-b624-92f37add84ac" name="stephen.godbold@PENNYWISE-PC 2009-01-26 21:45:46" runUser="PENNYWISE-PC\stephen.godbold" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="609e5987-3eed-4b67-91e3-88459f96de17">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\TestResults\stephen.godbold_PENNYWISE-PC 2009-01-26 21_45_46">
+      <DeploymentItem filename="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\CommunityCalender.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:45:46.9901249+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Windows' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:45:46.9901249+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Core' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:45:46.9901249+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Windows.Browser' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:45:46.9901249+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-01-26T21:45:46.6276193+11:00" queuing="2009-01-26T21:45:47.7401364+11:00" start="2009-01-26T21:45:47.9288893+11:00" finish="2009-01-26T21:45:48.6589005+11:00" />
+  <TestDefinitions>
+    <UnitTest name="Set_Month_Throws_Exception_For_Month_GT_12" storage="c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll" id="9f4e8564-cec1-d9d0-55f8-153457c8c8b0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="da959385-2095-4c1e-8312-49137905ff4b" />
+      <TestMethod codeBase="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CommunityCalender.Tests.MonthViewModelTests, CommunityCalender.Tests" name="Set_Month_Throws_Exception_For_Month_GT_12" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f4e8564-cec1-d9d0-55f8-153457c8c8b0" executionId="da959385-2095-4c1e-8312-49137905ff4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="da959385-2095-4c1e-8312-49137905ff4b" testId="9f4e8564-cec1-d9d0-55f8-153457c8c8b0" testName="Set_Month_Throws_Exception_For_Month_GT_12" computerName="PENNYWISE-PC" duration="00:00:00.1410590" startTime="2009-01-26T21:45:48.0463911+11:00" endTime="2009-01-26T21:45:48.5776493+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

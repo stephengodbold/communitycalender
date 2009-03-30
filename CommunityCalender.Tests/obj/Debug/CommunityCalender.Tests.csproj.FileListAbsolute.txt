@@ -1,0 +1,7 @@
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.Tests.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.Tests.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\obj\Debug\CommunityCalender.Tests.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\obj\Debug\CommunityCalender.Tests.pdb

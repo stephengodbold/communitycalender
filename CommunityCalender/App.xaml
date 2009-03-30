@@ -1,0 +1,193 @@
+﻿<Application
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="CommunityCalender.App" xmlns:CommunityCalender_Controls="clr-namespace:CommunityCalender.Controls" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows">
+	<Application.Resources>
+		<!-- MOHICAN -->
+		<SolidColorBrush x:Key="MohicanColor1" Color="#FFFF7817" />
+		<SolidColorBrush x:Key="MohicanColor2" Color="#FFFAFAC8" />
+		<SolidColorBrush x:Key="MohicanColor3" Color="#FFF5BF43" />
+		<SolidColorBrush x:Key="MohicanColor4" Color="#FF6B5542" />
+		<SolidColorBrush x:Key="MohicanColor5" Color="#FFD64733" />
+	
+		<!-- AQUARIUM -->
+		<SolidColorBrush x:Key="AquariumColor1" Color="#FF35AAF2" />
+		<SolidColorBrush x:Key="AquariumColor2" Color="#FF4BC3F2" />
+		<SolidColorBrush x:Key="AquariumColor3" Color="#FF075159" />
+		<SolidColorBrush x:Key="AquariumColor4" Color="#FFB6F2F2" />
+		<SolidColorBrush x:Key="AquariumColor5" Color="#FF0D0D0D" />
+
+		<!-- ASPIRIN -->
+		<SolidColorBrush x:Key="AspirinCColor1" Color="#FF225378" />
+		<SolidColorBrush x:Key="AspirinCColor2" Color="#FF1695A3" />
+		<SolidColorBrush x:Key="AspirinCColor3" Color="#FFACF0F2" />
+		<SolidColorBrush x:Key="AspirinCColor4" Color="#FFF3FFE2" />
+		<SolidColorBrush x:Key="AspirinCColor5" Color="#FFEB7F00" />
+
+		<!-- GARDEN --> 		
+		<SolidColorBrush x:Key="GardenswimmingpoolColor1" Color="#FF96CA2D" />
+		<SolidColorBrush x:Key="GardenswimmingpoolColor2" Color="#FFB5E655" />
+		<SolidColorBrush x:Key="GardenswimmingpoolColor3" Color="#FFEDF7F2" />
+		<SolidColorBrush x:Key="GardenswimmingpoolColor4" Color="#FF4BB5C1" />
+		<SolidColorBrush x:Key="GardenswimmingpoolColor5" Color="#FF7FC6BC" />
+
+		<!-- SUNSET -->
+		<SolidColorBrush x:Key="OceanSunsetColor1" Color="#FF405952" />
+		<SolidColorBrush x:Key="OceanSunsetColor2" Color="#FF9C9B7A" />
+		<SolidColorBrush x:Key="OceanSunsetColor3" Color="#FFFFD393" />
+		<SolidColorBrush x:Key="OceanSunsetColor4" Color="#FFFF974F" />
+		<SolidColorBrush x:Key="OceanSunsetColor5" Color="#FFF54F29" />
+		<DataTemplate x:Key="MonthDayEventTemplate">
+			<Grid Width="127" Height="32">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+				<Rectangle Fill="#27FFFFFF" Stroke="#FF000000" d:LayoutOverrides="VerticalAlignment" RadiusY="3.75" RadiusX="3.75"/>
+				<TextBlock TextWrapping="Wrap" d:LayoutOverrides="HorizontalAlignment" HorizontalAlignment="Right" x:Name="EventSummary" FontSize="12" Text="{Binding Mode=OneWay, Path=Title}" Margin="0,8,8,8" Width="111"/>
+			</Grid>
+		</DataTemplate>
+		<ItemsPanelTemplate x:Key="MonthDayEventLayout">
+			<StackPanel/>
+		</ItemsPanelTemplate>
+
+		<DataTemplate x:Key="MonthViewItem">
+			<Grid Width="98" Height="112">
+				<Rectangle Fill="#FF42CA2D" Stroke="#FF000000" RadiusY="5.25" RadiusX="5.25"/>
+				<Rectangle Stroke="#00000000" RadiusY="5.25" RadiusX="5.25" Margin="0,0,0,55">
+					<Rectangle.Fill>
+						<LinearGradientBrush EndPoint="0.506,1" StartPoint="0.494,0">
+							<GradientStop Color="#FF000000" Offset="0"/>
+							<GradientStop Color="#16FFFFFF" Offset="0.773"/>
+							<GradientStop Color="#D42E2E2E" Offset="0.017"/>
+						</LinearGradientBrush>
+					</Rectangle.Fill>
+				</Rectangle>
+				<TextBlock TextWrapping="Wrap" Margin="8,8,8,29" x:Name="DayHeader" VerticalAlignment="Stretch" Text="{Binding Mode=OneWay, Path=DayNumber}" FontSize="48" TextAlignment="Center" Foreground="#FFFFFFFF" FontWeight="Bold" FontFamily="Trebuchet MS"/>
+				<TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="{Binding Mode=OneWay, Path=Events.Count}" TextWrapping="Wrap" x:Name="EventCount" Margin="8,0,0,8" Width="82" Height="17" Foreground="#FFFFFFFF" TextAlignment="Center" FontSize="14"/>
+			</Grid>
+		</DataTemplate>
+		<ItemsPanelTemplate x:Key="MonthLayout">
+			<CommunityCalender_Controls:WrapPanel/>
+		</ItemsPanelTemplate>
+
+		<ItemsPanelTemplate x:Key="DayViewLayout">
+			<StackPanel Background="{StaticResource GardenswimmingpoolColor1}"/>
+		</ItemsPanelTemplate>
+		<ItemsPanelTemplate x:Key="DayItemsLayout">
+			<StackPanel/>
+		</ItemsPanelTemplate>
+		<DataTemplate x:Key="DayItemTemplate">
+			<Grid Height="116" Width="402">
+				<Rectangle RadiusX="5" RadiusY="5" Fill="{StaticResource AspirinCColor4}" />
+				<TextBlock x:Name="EventName" VerticalAlignment="Top" Text="{Binding Mode=OneWay, Path=Event.Name}" TextWrapping="Wrap" Margin="8,8,8,0" FontSize="14" Height="28"/>
+				<TextBlock Margin="8,45,8,8" x:Name="EventShortDescription" Text="{Binding Mode=OneWay, Path=Event.Description}" TextWrapping="Wrap"/>
+				<Rectangle Margin="8,40,38,0" Fill="#FFFFFFFF" Stroke="#FF000000" Height="1" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+					<Rectangle.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="1"/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Rectangle.RenderTransform>
+				</Rectangle>
+			</Grid>
+		</DataTemplate>
+		<DataTemplate x:Key="ButtonTemplate">
+			<Grid Width="192" Height="65">
+				<Rectangle Fill="{StaticResource AquariumColor1}" Stroke="{x:Null}" RadiusY="3.25" RadiusX="3.25"/>
+				<Rectangle Stroke="{x:Null}">
+					<Rectangle.Fill>
+						<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+							<GradientStop Color="#FF000000"/>
+							<GradientStop Color="#16FFFFFF" Offset="0.57"/>
+						</LinearGradientBrush>
+					</Rectangle.Fill>
+				</Rectangle>
+			</Grid>
+		</DataTemplate>
+
+		<Style x:Key="ControlButtonStyle" TargetType="Button">
+			<Setter Property="Background" Value="#FF1F3B53"/>
+			<Setter Property="Foreground" Value="#FF000000"/>
+			<Setter Property="Padding" Value="3"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="BorderBrush">
+				<Setter.Value>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFA3AEB9" Offset="0"/>
+						<GradientStop Color="#FF8399A9" Offset="0.375"/>
+						<GradientStop Color="#FF718597" Offset="0.375"/>
+						<GradientStop Color="#FF617584" Offset="1"/>
+					</LinearGradientBrush>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<vsm:VisualStateManager.VisualStateGroups>
+								<vsm:VisualStateGroup x:Name="CommonStates">
+									<vsm:VisualState x:Name="Normal"/>
+									<vsm:VisualState x:Name="MouseOver">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</vsm:VisualState>
+									<vsm:VisualState x:Name="Pressed">
+										<Storyboard>
+											<ColorAnimationUsingKeyFrames Storyboard.TargetName="Background" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)">
+												<SplineColorKeyFrame KeyTime="0" Value="#FF6DBDD1"/>
+											</ColorAnimationUsingKeyFrames>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="BackgroundAnimation" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</vsm:VisualState>
+									<vsm:VisualState x:Name="Disabled">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="DisabledVisualElement" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value=".55"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</vsm:VisualState>
+								</vsm:VisualStateGroup>
+								<vsm:VisualStateGroup x:Name="FocusStates">
+									<vsm:VisualState x:Name="Focused">
+										<Storyboard>
+											<DoubleAnimationUsingKeyFrames Storyboard.TargetName="FocusVisualElement" Storyboard.TargetProperty="Opacity">
+												<SplineDoubleKeyFrame KeyTime="0" Value="1"/>
+											</DoubleAnimationUsingKeyFrames>
+										</Storyboard>
+									</vsm:VisualState>
+									<vsm:VisualState x:Name="Unfocused"/>
+								</vsm:VisualStateGroup>
+							</vsm:VisualStateManager.VisualStateGroups>
+							<Border x:Name="Background" Background="White" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="3">
+								<Grid Margin="1" Background="{TemplateBinding Background}">
+									<Border x:Name="BackgroundAnimation" Opacity="0" Background="#FF3E4348"/>
+									<Rectangle x:Name="BackgroundGradient">
+										<Rectangle.Fill>
+											<LinearGradientBrush EndPoint="0.699999988079071,1" StartPoint="0.699999988079071,0">
+												<GradientStop Color="#FFACF0F2" Offset="1"/>
+												<GradientStop Color="#FF1695A3" Offset="0.375"/>
+												<GradientStop Color="#E5FFFFFF" Offset="0.625"/>
+												<GradientStop Color="#FF225378" Offset="0.056"/>
+											</LinearGradientBrush>
+										</Rectangle.Fill>
+									</Rectangle>
+								</Grid>
+							</Border>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" x:Name="contentPresenter" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+							<Rectangle x:Name="DisabledVisualElement" IsHitTestVisible="false" Opacity="0" RadiusX="3" RadiusY="3" Fill="#FFFFFFFF"/>
+							<Rectangle Margin="1" x:Name="FocusVisualElement" IsHitTestVisible="false" Opacity="0" RadiusX="2" RadiusY="2" Stroke="#FF6DBDD1" StrokeThickness="1"/>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+	</Application.Resources>
+</Application>

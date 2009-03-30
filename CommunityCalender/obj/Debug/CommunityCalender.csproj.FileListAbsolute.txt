@@ -1,0 +1,14 @@
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\AppManifest.xaml
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\CommunityCalender.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\CommunityCalender.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\CommunityCalender.xap
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\Default.html
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\App.g.cs
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\CommunityCalender.g.resources
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\CommunityCalender.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\CommunityCalender.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\XapCacheFile.xml
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\ViewManager.g.cs
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\Views\EventView.g.cs
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\obj\Debug\Views\MonthView.g.cs

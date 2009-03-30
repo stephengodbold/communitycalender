@@ -1,0 +1,9 @@
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\CommunityCalender.Data.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\CommunityCalender.Data.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\Mindscape.LightSpeed.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\Mindscape.LightSpeed.Linq.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\Mindscape.LightSpeed.xml
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\bin\Debug\Mindscape.LightSpeed.Linq.xml
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\obj\Debug\CommunityCalender.Data.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Data\obj\Debug\CommunityCalender.Data.pdb

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4e544d16-7e9d-47f8-8a50-8a1d8e72bdc7" name="stephen.godbold@PENNYWISE-PC 2009-01-26 21:46:49" runUser="PENNYWISE-PC\stephen.godbold" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="609e5987-3eed-4b67-91e3-88459f96de17">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\TestResults\stephen.godbold_PENNYWISE-PC 2009-01-26 21_46_49">
+      <DeploymentItem filename="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender\bin\Debug\CommunityCalender.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:46:49.5938375+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Windows' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:46:49.5938375+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Core' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:46:49.5938375+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Windows.Browser' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="PENNYWISE-PC" outcome="Warning" timestamp="2009-01-26T21:46:49.5938375+11:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System' directly or indirectly referenced by the test container 'c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-01-26T21:46:49.2763326+11:00" queuing="2009-01-26T21:46:49.7425897+11:00" start="2009-01-26T21:46:49.9450929+11:00" finish="2009-01-26T21:46:50.4088500+11:00" />
+  <TestDefinitions>
+    <UnitTest name="Set_Month_Returns_Correct_Month" storage="c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll" id="1497d6ff-7e2b-e074-65d7-6055f8708300">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="45adfe8e-a0d1-4756-9b57-bb886278f186" />
+      <TestMethod codeBase="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CommunityCalender.Tests.MonthViewModelTests, CommunityCalender.Tests" name="Set_Month_Returns_Correct_Month" />
+    </UnitTest>
+    <UnitTest name="Set_Month_Throws_Exception_For_Month_GT_12" storage="c:\users\stephen.godbold\documents\dev\communitycalender\communitycalender.tests\bin\debug\communitycalender.tests.dll" id="9f4e8564-cec1-d9d0-55f8-153457c8c8b0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="780304e6-ca2a-4653-a8a6-5c647de596a2" />
+      <TestMethod codeBase="C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Tests\bin\Debug\CommunityCalender.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CommunityCalender.Tests.MonthViewModelTests, CommunityCalender.Tests" name="Set_Month_Throws_Exception_For_Month_GT_12" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1497d6ff-7e2b-e074-65d7-6055f8708300" executionId="45adfe8e-a0d1-4756-9b57-bb886278f186" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4e8564-cec1-d9d0-55f8-153457c8c8b0" executionId="780304e6-ca2a-4653-a8a6-5c647de596a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="45adfe8e-a0d1-4756-9b57-bb886278f186" testId="1497d6ff-7e2b-e074-65d7-6055f8708300" testName="Set_Month_Returns_Correct_Month" computerName="PENNYWISE-PC" duration="00:00:00.0150569" startTime="2009-01-26T21:46:50.0388443+11:00" endTime="2009-01-26T21:46:50.3625993+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="780304e6-ca2a-4653-a8a6-5c647de596a2" testId="9f4e8564-cec1-d9d0-55f8-153457c8c8b0" testName="Set_Month_Throws_Exception_For_Month_GT_12" computerName="PENNYWISE-PC" duration="00:00:00.0035394" startTime="2009-01-26T21:46:50.3638493+11:00" endTime="2009-01-26T21:46:50.3700994+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,14 @@
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\CommunityCalender.Host.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\CommunityCalender.Host.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\System.Web.Silverlight.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\de\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\es\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\fr\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\it\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\ja\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\ko\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\zh-Hans\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\bin\zh-Hant\System.Web.Silverlight.resources.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\obj\Debug\CommunityCalender.Host.dll
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalender\CommunityCalender.Host\obj\Debug\CommunityCalender.Host.pdb

@@ -1,0 +1,27 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="CommunityCalender.EventView"
+	d:DesignWidth="800" d:DesignHeight="600" Margin="0,0,0,0">
+
+	<Grid x:Name="LayoutRoot">
+		<Rectangle Fill="{StaticResource AquariumColor5}" Stroke="#FF000000" RadiusY="5.25" RadiusX="5.25"/>
+		<Rectangle RadiusX="5.25" RadiusY="5.25" Stroke="#FF000000">
+			<Rectangle.Fill>
+				<LinearGradientBrush EndPoint="0.502,1" StartPoint="0.498,0">
+					<GradientStop Color="#FF000000"/>
+					<GradientStop Color="#16FFFFFF" Offset="0.424"/>
+				</LinearGradientBrush>
+			</Rectangle.Fill>
+		</Rectangle>
+		<Rectangle Margin="100,45,100,45" RadiusX="5.25" RadiusY="5.25" Fill="{StaticResource GardenswimmingpoolColor1}" Stroke="#FF000000"/>
+		<Rectangle Height="2" Margin="185,135,185,0" VerticalAlignment="Top" Fill="#FFFFFFFF" Stroke="#FFFFFFFF"/>
+		<Button VerticalAlignment="Bottom" Content="Done" Margin="0,0,120,60" HorizontalAlignment="Right" x:Name="DoneButton" Click="DoneButton_Click" Height="39" Width="111.666" d:LayoutOverrides="Width"/>
+		<TextBlock Height="46" Margin="125,151,120,0" VerticalAlignment="Top" Text="{Binding Mode=OneWay, Path=DateTime}" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" FontFamily="Portable User Interface" x:Name="EventDateTime"/>
+		<TextBlock Margin="125,201,120,98" Text="{Binding Mode=OneWay, Path=Summary}" TextWrapping="Wrap" FontSize="12" x:Name="EventSummary"/>
+		<TextBlock VerticalAlignment="Top" Text="{Binding Mode=OneWay, Path=Event.Title}" TextWrapping="Wrap" Margin="125,62,120,0" Height="69" FontSize="24" FontWeight="Bold" FontFamily="Portable User Interface" x:Name="EventTitle"/>
+	</Grid>
+</UserControl>
