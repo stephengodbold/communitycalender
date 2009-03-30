@@ -1,0 +1,8 @@
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\bin\Debug\Concept.Console.exe
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\bin\Debug\Concept.Console.pdb
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\bin\Debug\Moq.dll
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\obj\Debug\Concept.Console.exe
+C:\Users\stephen.godbold\Documents\Visual Studio 2008\Projects\Concept.Console\Concept.Console\obj\Debug\Concept.Console.pdb
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalenderGit\Concept.Console\Concept.Console\obj\Debug\Concept.Console.exe
+C:\Users\stephen.godbold\Documents\Dev\CommunityCalenderGit\Concept.Console\Concept.Console\obj\Debug\Concept.Console.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concept.Console", "Concept.Console\Concept.Console.csproj", "{8E620D00-E7D0-4DAE-BEE9-12D3EE354B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{1895374B-92F0-48A4-AE95-FAD1A87F2703}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Moq.dll = Dependencies\Moq.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E620D00-E7D0-4DAE-BEE9-12D3EE354B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E620D00-E7D0-4DAE-BEE9-12D3EE354B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E620D00-E7D0-4DAE-BEE9-12D3EE354B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E620D00-E7D0-4DAE-BEE9-12D3EE354B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
